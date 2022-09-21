@@ -1,0 +1,45 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Online Store</title>
+  </head>
+  <header>
+    <h1>Clear Skin Care</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html"> HOME </a></li>
+        <li><a href="about.html"> ABOUT</a></li>
+        <li><a href="contact.html"> CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+  <body>
+    <section id="checkOut">
+      <img class="cart-icon" src="images/shopping-cart.png" alt="cart" />
+      <h3 id="itemsCount">0 items</h3>
+      <p id="orderTotal"></p>
+      <p id="totalPlusTax"></p>
+      <p id="totalPlusShipping"></p>
+    </section>
+    <div class="itemList">
+      <div class="product">
+        <img class="items" src="images/OilSerum.jpg" alt="Oil Serum Bottle" />
+        <h3>Oil Serum</h3>
+        <p>$35</p>
+        <button id="limitedProd" onclick="addToCart(item1); count();">
+          <em> Add to cart</em>
+        </button>
+      </div>
+      <div class="product">
+        <img class="items" src="images/Buttercream.jpg" alt="Butter Cream" />
+        <h3>Butter Moisturizer</h3>
+        <p>$20</p>
+        <button onclick="addToCart(item2)"><em>Add to cart</em></button>
+      </div>
+    </div>
+  </body>
+  <script src="javascript.js"></script>
+</html>

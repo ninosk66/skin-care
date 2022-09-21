@@ -1,0 +1,135 @@
+
+body {
+   
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(78, 76, 69);
+}
+
+
+
+header {
+    background-color: rgb(219, 199, 170);
+    height: 100px;
+    display: flex;
+   
+}
+
+
+nav {
+    
+    width: 50%;
+}
+
+
+a {
+    color: rgb(78, 76, 69);
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    justify-content: right;
+    margin-right: 200px;
+   
+    
+    
+}
+
+
+li {
+    list-style: none;
+    margin: 20px;
+    
+
+    
+    
+}
+
+h1 {
+    text-align: left;
+    width: 50%;
+    margin-left: 20px;
+    color: rgb(78, 76, 69);
+ 
+    
+}
+
+.itemList { 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+
+}
+
+.items {
+    width: 200px;
+    height: 260px;
+    margin-top: 50px;
+    padding: 25px;
+}
+
+.cart-icon {
+    width: 20px;
+    height: 20px;
+    
+    
+}
+
+button, .submitBtn {
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+button:hover, .submitBtn:hover {
+    color: white;
+    background-color: rgb(219, 199, 170);
+}
+
+section {
+    position: absolute;
+    right: 56px;
+    top: 40px
+
+    
+}
+
+#itemsCount {
+    font-size: 10px;
+}
+
+/* About Page */
+
+h2 {
+    margin-top: 100px;
+    margin-left: 20px;
+
+}
+
+.aboutPara {
+   
+    padding: 30px;
+
+    
+}
+
+
+
+/* Contact Page */
+
+fieldset {
+    border-radius: 30px;
+    padding: 40px;
+    width: 50%;
+    margin: 50px auto;
+
+    
+}
+
+textarea {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
